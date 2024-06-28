@@ -91,7 +91,7 @@ export default function ManiMenu() {
         <div className="ms-auto">
           <ul id="nav" className="navbar-nav ms-auto">
             <li className="nav-item">
-              <a href="https://docs.waf.chaitin.com/" target="_blank">
+              <a href="https://docs.waf.chaitin.com/" target="_blank" rel="noreferrer">
                 Docs
               </a>
             </li>
@@ -110,6 +110,7 @@ export default function ManiMenu() {
                 <a
                   key={i.icon}
                   target="_blank"
+                  rel="noreferrer"
                   className="nav-item_icon"
                   href={i.link}
                   style={{ padding: "4px" }}
@@ -136,6 +137,7 @@ export default function ManiMenu() {
                 className="nav-item_icon"
                 href="https://github.com/chaitin/SafeLine"
                 target="_blank"
+                rel="noreferrer"
               >
                 <svg
                   className="icon_svg"
@@ -158,6 +160,7 @@ export default function ManiMenu() {
                 className="main-btn btn-hover"
                 style={{ color: "#fff" }}
                 target="_blank"
+                rel="noreferrer"
               >
                 Demo
               </a>

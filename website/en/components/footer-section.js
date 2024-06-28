@@ -29,7 +29,7 @@ export default function FooterSection({}) {
               <ul className="social-links">
                 {contactInfo.map((i) => (
                   <li key={i.icon}>
-                    <a href={i.link} target="_blank">
+                    <a href={i.link} target="_blank" rel="noreferrer" >
                       <svg className="icon_svg" width="24px">
                         <use xlinkHref={'#'+i.icon} />
                       </svg>
@@ -38,7 +38,7 @@ export default function FooterSection({}) {
                 ))}
 
                 <li>
-                  <a href="https://github.com/chaitin/SafeLine" target="_blank">
+                  <a href="https://github.com/chaitin/SafeLine" target="_blank" rel="noreferrer" >
                     <svg className="icon_svg" width="24px">
                       <use xlinkHref="#icon-github-fill" />
                     </svg>
@@ -55,6 +55,7 @@ export default function FooterSection({}) {
                   <a
                     href="https://docs.waf.chaitin.com/"
                     target="_blank"
+                    rel="noreferrer" 
                     style={{ textDecoration: "none", color: "unset" }}
                   >
                     Docs

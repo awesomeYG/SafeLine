@@ -56,6 +56,7 @@ export default function Hero({ scrollAnchorId }) {
                 href="https://docs.waf.chaitin.com/en/tutorials/install"
                 className="main-btn btn-hover"
                 target="_blank"
+                rel="noreferrer" 
               >
                 Get Started
               </a>
